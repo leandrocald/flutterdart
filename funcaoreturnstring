@@ -1,0 +1,25 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+String nome = mostreNome();
+  print(nome + " Não sei não!");
+
+  }
+
+/*
+Funções com retorno
+String
+Int
+num
+double
+boolean
+
+ */
+String mostreNome(){
+  String a = "James Bond";
+  if (a.contains("J")){
+    return "O Nome contém a letra J";
+  }else
+  return "Meu Nome";
+}
+
