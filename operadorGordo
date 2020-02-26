@@ -1,0 +1,18 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+
+print(retorno());
+print(mostrNome());
+  }
+
+  //operador gordo
+  String retorno() => "Alô"; // esse " => " é o operador gordo  que substitui o return
+
+  String mostrNome(){
+    String a= "James Bond";
+    if (a.contains("J")){
+      return "O nome contém a letra J";
+    }else
+      return "Meu nome...";
+  }
