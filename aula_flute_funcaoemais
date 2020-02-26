@@ -1,0 +1,120 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+
+
+
+
+
+
+
+
+
+
+
+
+//var idade = 83;
+
+//switch (idade){
+//  case 16:
+//      print("Menor de idade");
+//      break;
+//  case 18:
+//    print("Pode votar e tomar Copitos!");
+//    break;
+//  case 10:
+//    print("Menor de idade!");
+//    break;
+//  case 83:
+//    print("Claro que pode tomar uns copitos, mas com moderação!");
+//    break;
+
+
+//}
+
+
+
+
+
+
+
+//var nome;
+//adivinha o meu nome?
+  // Resposta = Artur
+//while (idade != 32){
+  //print ("Estou aqui");
+//}
+
+//do {
+//  print ("Sou programador Dart");
+//} while (idade > 32);
+
+
+
+
+
+
+ // for (var i =0; i < 10; i++){
+//   if (i % 3==0 ){
+ //    print("$i é multiplo de 3");
+  // }else {
+    // print ("$i não é multiplo de 3");
+   //}
+  //}
+
+
+
+
+
+
+
+
+  //int a = 4;
+ // int b = 4;
+
+
+// if = se, condicional
+
+//if (!(a == b)){
+ // print ("Isso é verdade");
+
+//}else{
+ // print ("Isso é mentira");
+//}
+
+
+
+  // Igualdade e operadores relacionais
+  // == : igualdade
+  // >= : maior do que
+
+
+
+
+
+  //var c = "Alô";
+
+
+  //resultado = a % b;
+
+  // modulus %
+
+  //print ("O resultado: $resultado ");
+
+
+
+
+nomeMaiusclo();
+
+
+}
+
+nomeMaiusclo(){
+var meuNome = "Paulo";
+if (meuNome.isNotEmpty){
+  print(meuNome.toUpperCase());
+  }else {
+  print("Vazio");
+}
+
+}
