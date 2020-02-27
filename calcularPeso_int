@@ -1,0 +1,22 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+
+print(calcularPeso());
+  }
+
+/*
+Funções com retorno
+String
+Int
+num
+double
+boolean
+
+ */
+int calcularPeso(){
+  int massa = 50;
+  double gravidade = 9.8;
+  double resultado = massa * gravidade;
+  return resultado.toInt(); //o .toInt() serve para transformar o resultado em int, pois a função só aceita int(já que é um int) 
+}
