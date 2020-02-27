@@ -1,0 +1,26 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+print (flamengoCampeao());
+
+  }
+
+/*
+Funções com retorno
+String
+Int
+num
+double
+boolean
+
+ */
+bool flamengoCampeao(){
+  int a = 2;
+  int b=2;
+    if (a+b==4){
+      print("Flamengo é campeão Novamente!");
+    }else{
+      print("Flamengo ainda vai ser campeão" );
+    }
+
+}
