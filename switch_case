@@ -1,0 +1,26 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+  var finais = "A";
+  switch(finais) {
+  case "A": { print("Flamengo Campeão da Supercopa"); }
+  break;
+  case "B": { print("Flamengo Campeão da Guanabara"); }
+  break;
+
+  case "C": { print("Flamengo Campeão da Recopa"); }
+  break;
+  }
+
+
+  }
+
+/*
+Funções com retorno
+String
+Int
+num
+double
+boolean
+
+ */
