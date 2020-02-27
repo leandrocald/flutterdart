@@ -1,18 +1,31 @@
 import 'package:variaveis/variaveis.dart' as variaveis;
 
 void main(List<String> arguments) {
-  var finais = "A";
-  switch(finais) {
-  case "A": { print("Flamengo Campeão da Supercopa"); }
-  break;
-  case "B": { print("Flamengo Campeão da Guanabara"); }
-  break;
+ int x;
+  for (x=0; x<10;x++){
+    if (x==0) {
+      print("Flamengo Campeão da Supercopa!");
+    } else if (x==1) {
+      print("OUTRO PATAMAR!");
+    }else if (x==2) {
+      print("Flamengo Campeão da Taça Guanabara!");
+    }else if (x==3) {
+      print("Flamengo Campeão da Recopa!");
+    }else if (x==4) {
+      print("Flamengo Campeão da Taça Libertadores 2019!");
+    }else if (x==5) {
+      print("Flamengo Campeão Brasileiro 2019");
+    }else if (x==6) {
+      print("Os Antis Piram!");
+    }else if (x==7) {
+      print("Só Dá Mengão");
+    }else if (x==8) {
+      print("Em 1 mês ganhamos mais títulos que os outros 3 do Rio Vão ganhar em 2020! ");
+      }else if (x==9) {
+      print("E só da Mengo!!!");
+    }
 
-  case "C": { print("Flamengo Campeão da Recopa"); }
-  break;
   }
-
-
   }
 
 /*
