@@ -1,0 +1,35 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+
+void main(List<String> arguments) {
+
+  print(calcularPeso(50, 9.8));
+
+  }
+
+
+
+
+  int calcularPeso(int massa, double gravidade){
+  double resultado  = massa * gravidade;
+  return resultado.toInt();
+
+  }
+  
+  
+  
+/*
+
+Com menos código:
+ int calcularPeso(int massa, double gravidade)
+  => (massa * gravidade).toInt();
+
+
+Funções com retorno
+String
+Int
+num
+double
+boolean
+parametros
+
+ */
