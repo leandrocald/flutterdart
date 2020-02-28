@@ -1,0 +1,12 @@
+import 'package:variaveis/variaveis.dart' as variaveis;
+import 'package:meta/meta.dart';
+void main(List<String> arguments) {
+
+  print(calcularIdadeDoGato(5, "Ruff"));
+
+  }
+
+int calcularIdadeDoGato(int idadeGato, [String nomeDoGato])//entre colchetes é opcional
+=> (idadeGato * 7);
+
+
